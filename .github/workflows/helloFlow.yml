@@ -1,5 +1,5 @@
 name: Hello Flow
-on:
+on: push
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
